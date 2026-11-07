@@ -1,0 +1,5 @@
+Student name: Damian van Schie
+Student number: 762417
+Student class: your class
+GitHub Repository: your github repository URL
+GitHub Pages URL: your github pages URL

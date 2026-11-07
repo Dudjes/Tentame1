@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Mijn eerste keer gym</title>
+    <meta name="description" content="Leer alles over je eerste keer naar de sportschool, van voorbereiding en benodigdheden tot hygiëne en handige trainingstips.">
+    <meta name="keywords" content="sportschool, fitness, beginners, training, gym">
+    <meta name="author" content="Damian van Schie">
+    <link rel="icon" href="img/desktop/Logo.png">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <aside class="cookies-message">Deze website gebruikt cookies.</aside>
+    <nav>
+        <header>
+            <img src="img/desktop/Logo.png" alt="Mijn eerste keer gym logo" title="Mijn eerste keer gym logo">
+            <hgroup>
+                <h2>Mijn eerste</h2>
+                <p class="logo-subtitle">keer gym</p>
+            </hgroup>
+        </header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="first-time.html">Mijn eerste keer</a></li>
+            <li><a href="what-to-bring.html">Wat neem je mee</a></li>
+            <li><a href="hygiene.html">Hygiëne</a></li>
+            <li><a href="tips.html">Tips</a></li>
+            <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+        <details id="mobile-menu">
+            <summary>☰</summary>
+            <ul>
+                <li><a href="index.html"><span class="menu-number">01</span> Home</a></li>
+                <li><a href="first-time.html"><span class="menu-number">02</span> Mijn eerste keer</a></li>
+                <li><a href="what-to-bring.html"><span class="menu-number">03</span> Wat neem je mee</a></li>
+                <li><a href="hygiene.html"><span class="menu-number">04</span> Hygiëne</a></li>
+                <li><a href="tips.html"><span class="menu-number">05</span> Tips en tricks</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+            </ul>
+        </details>
+    </nav>
+
+    <main id="contact-page">
+        <section id="contact-main-text">
+            <p class="short-info">Contact</p>
+            <h1>Wil je meer weten?</h1>
+            <p>Heb je na het lezen van deze website nog een vraag, of is iets niet helemaal duidelijk? Neem gerust contact met ons op. We helpen je graag verder met vragen over sporten, trainingen en alles wat daarbij komt kijken.</p>
+        </section>
+
+        <section id="contact-content" aria-label="Contactformulier">
+            <aside id="form-information">
+                <header class="main-text">
+                    <p class="short-info-dark">Vraag stellen</p>
+                    <h2>Wat kun je verwachten?</h2>
+                    <p>Neem contact op met ons. Heb je na het lezen van deze website nog een vraag, of is iets niet helemaal duidelijk? We helpen je graag verder met vragen over sporten, trainingen en alles wat daarbij komt kijken.</p>
+                </header>
+
+                <ol id="contact-steps">
+                    <li class="contact-step">
+                        <p class="card-number">01</p>
+                        <article class="contact-step-text">
+                            <h3>Stuur je vraag op</h3>
+                            <p>Vul het formulier in met je naam en e-mailadres.</p>
+                        </article>
+                    </li>
+                    <li class="contact-step">
+                        <p class="card-number">02</p>
+                        <article class="contact-step-text">
+                            <h3>Wij lezen mee</h3>
+                            <p>We bekijken je vraag en zoeken het beste antwoord.</p>
+                        </article>
+                    </li>
+                    <li class="contact-step">
+                        <p class="card-number">03</p>
+                        <article class="contact-step-text">
+                            <h3>Je krijgt antwoord</h3>
+                            <p>We reageren op het e-mailadres dat je hebt opgegeven. Meestal binnen 1 tot 2 werkdagen.</p>
+                        </article>
+                    </li>
+                </ol>
+            </aside>
+
+            <form id="contact-form" method="post">
+                <fieldset id="contact-topic">
+                    <legend>Waar gaat dit over? (optioneel)</legend>
+                    <label><input type="radio" name="topic" value="sporten" checked> Sporten</label>
+                    <label><input type="radio" name="topic" value="trainen"> Trainen</label>
+                    <label><input type="radio" name="topic" value="sportschool"> Sportschool spullen</label>
+                    <label><input type="radio" name="topic" value="anders"> Anders</label>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Aanhef</legend>
+                    <label><input type="radio" name="salutation" value="dhr"> Dhr.</label>
+                    <label><input type="radio" name="salutation" value="mevr"> Mevr.</label>
+                </fieldset>
+
+                <fieldset id="form-text-inputs">
+                    <legend>Persoonsgegevens en vraag</legend>
+                    <p>
+                        <label for="name">Naam</label>
+                        <input type="text" name="name" id="name" placeholder="Je naam" required>
+                    </p>
+                    <p>
+                        <label for="email">E-mailadres</label>
+                        <input type="email" name="email" id="email" placeholder="voorbeeld@gmail.com" required>
+                    </p>
+                    <p>
+                        <label for="question">Je vraag</label>
+                        <textarea name="question" id="question" placeholder="Omschrijf je vraag zo duidelijk mogelijk" required></textarea>
+                    </p>
+                </fieldset>
+                <input type="submit" value="Verstuur je vraag">
+            </form>
+        </section>
+        <figure id="contact-image">
+            <img src="img/desktop/form.png" alt="Twee mannen trainen: Één met goede en één met slechte vorm" title="Twee mannen trainen: Één met goede en één met slechte vorm">
+            <figcaption>
+                <p class="short-info">Goede uitvoering is belangrijk</p>
+                <p>Twijfel je over je uitvoering van een oefening? Beschrijf de oefening in je vraag, dan denken we met je mee.</p>
+            </figcaption>
+        </figure>
+    </main>
+
+    <footer>
+        <section class="footer-intro">
+            <h2>Mijn eerste keer gym</h2>
+            <p>Alles wat je nodig hebt voor je eerste keer sporten, op één plek.</p>
+        </section>
+        <nav>
+            <h2>Pagina's</h2>
+            <ul>
+                <li><a href="first-time.html">Mijn eerste keer gym</a></li>
+                <li><a href="what-to-bring.html">Wat neem je mee?</a></li>
+                <li><a href="hygiene.html">Hygiëne en etiquette</a></li>
+                <li><a href="tips.html">Tips &amp; Tricks</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <a class="main-button" href="contact.html">
+            Neem contact op
+            <span>&RightArrow;</span>
+        </a>
+        <aside>
+            <h2>Nog een vraag?</h2>
+            <p>Staat je vraag er niet bij? Stel hem gerust, geen vraag is te simpel.</p>
+        </aside>
+        <p>&copy; 2026 Mijn eerste keer gym</p>
+    </footer>
+</body>
+</html>
